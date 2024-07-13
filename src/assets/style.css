@@ -1,0 +1,33 @@
+/* Universal COde */
+:root{
+    --text:#000;
+    --main-font:'Big-Noodle-Tilting';
+}
+
+@font-face {
+    font-family: 'Big-Noodle-Tilting';
+    src: url(big-noodle-titling/big_noodle_titling.ttf);
+}
+
+#app {
+    font-family: var(--main-font), Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  /* HomePage */
+  .homeNav{
+    height: 100vh;
+    position: relative;
+  }
+  .homeNav .navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 10;
+    margin-top: 10px; /* Adjust this value as needed */
+  }
