@@ -31,3 +31,7 @@
     left: 10;
     margin-top: 10px; /* Adjust this value as needed */
   }
+  .homeContent{
+    height: 100vh;
+    width: auto;
+  }

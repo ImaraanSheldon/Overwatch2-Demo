@@ -1,5 +1,5 @@
 <template>
     <div class="Heroes">
-        COME! by WhoKilledDxix
+        Oh Lets Break It Down
     </div>
 </template>
