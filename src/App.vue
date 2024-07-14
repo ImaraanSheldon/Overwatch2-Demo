@@ -1,9 +1,5 @@
 <template>
 <!-- App wont have content bc its universal -->
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/HeroesPage">Heroes</router-link>
-  </nav> -->
   <router-view/>
 </template>
 
@@ -16,3 +12,4 @@ export default{
 
 
 <style src="@/assets/style.css"></style>
+<!-- https://imaraansheldon.github.io/allImages/portfolio-Images/temp.jpeg -->
