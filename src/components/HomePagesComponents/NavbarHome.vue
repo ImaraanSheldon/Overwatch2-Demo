@@ -2,7 +2,7 @@
   <div class="row">
     <!-- NavBar -->
     <nav class="col-6 navbar navbar-expand homeNav ">
-  <div class="container-fluid d-flex flex-column align-items-start ms-2">
+  <div class="container-fluid d-flex flex-column align-items-start">
     <RouterLink class="navbar-brand" to="/">OVERWATCH 2 UI</RouterLink>
  
       <div class="navbar-nav d-flex flex-column align-items-start display-5 fw-bold ms-2">
@@ -20,9 +20,9 @@
   </div>
 </nav>
 
-<div class="col-6 homeContent d-flex flex-column justify-content-between align-items-end">
-    <div>SOCIAL COMPONENT</div>
-    <div>FLIP UP CAROUSEL</div>
+<div class="col-6 homeContent d-flex flex-column">
+    <div class="h-50 w-100 text-end">SOCIAL COMPONENT</div>
+    <div class="h-50 w-100 pt-auto text-end">FLIP UP CAROUSEL</div>
 </div>
 
   </div>
@@ -32,3 +32,9 @@
 export default{
 }
 </script>
+
+<style scoped>
+.h{
+  background-color: red;
+}
+</style>
