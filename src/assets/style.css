@@ -7,11 +7,16 @@
 :root{
     --text:#fff;
     --main-font:'Big-Noodle-Tilting';
+    --secondary-font:'Burbank'
 }
 
 @font-face {
     font-family: 'Big-Noodle-Tilting';
     src: url(big-noodle-titling/big_noodle_titling_oblique.ttf);
+}
+@font-face {
+    font-family: 'Burbank';
+    src: url(../assets/Burban-Big-Condensed/burbankbigcondensed_black.otf);
 }
 
 #app {
