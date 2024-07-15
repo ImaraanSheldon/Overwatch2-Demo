@@ -48,10 +48,13 @@ h1,h2,h3,h4,h5{
 .text{
   color: var(--text);
   filter: brightness(95%);
+  transition: ease-in-out 0.2s;
   /* -webkit-text-stroke: 1px black; */
   &:hover{
     color: var(--text);
     filter: brightness(150%);
+    margin-left: 1vw;
+    transition: ease 0.2s;
   }
 }
 img[alt="ow2"] {
