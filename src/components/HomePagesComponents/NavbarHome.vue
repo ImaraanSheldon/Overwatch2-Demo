@@ -20,9 +20,9 @@
   </div>
 </nav>
 
-<div class="col-lg-6 homeContent d-flex flex-column">
-    <div class="h-50 w-100 text-end"><socials/></div>
-    <div class="h-50 w-100 text-end  carousel">FLIP UP CAROUSEL</div>
+<div class="col-lg-6 homeContent">
+    <div class="h-50 w-100"><socials/></div>
+    <div class="h-50 w-100 d-flex justify-content-end align-items-end"><news/></div>
 </div>
 
   </div>
@@ -30,10 +30,12 @@
 
 <script>
 import socials from '@/components/SocialsComp.vue'
+import news from './NewsComp.vue'
 
 export default{
   components:{
-    socials
+    socials,
+    news
   }
 }
 </script>

@@ -1,12 +1,12 @@
 <template>
     <div class="d-flex justify-content-end pt-3">
-        <div class="sq"><img src="https://imaraansheldon.github.io/Overwatch_Images/Main/Homescreen/Cute_Lucio.png" alt="HeroLogo"></div>
-        <div class="rect rounded-end-1 d-flex flex-column align-items-start">
+        <div class="sq glow"><img src="https://imaraansheldon.github.io/Overwatch_Images/Main/Homescreen/Cute_Lucio.png" alt="HeroLogo"></div>
+        <div class="rect glow rounded-end-1 d-flex flex-column align-items-start">
             <div class="player-name fw-bold pt-1 ps-1 m-0 p-0">RAISIN</div>
             <div class="controller-name ps-1 pb-1"><i class="controller las la-gamepad"></i>Raisin</div>
         </div>
-        <div class="sq ms-1 d-flex justify-content-center align-items-center rounded-1"><img src="https://imaraansheldon.github.io/Overwatch_Images/Main/Homescreen/friends.png" alt="Friends"></div>
-        <div class="sq medal ms-1 rounded-1 d-flex justify-content-center align-items-center rounded-1"><i class="las la-medal"></i></div>
+        <div class="sq glow ms-1 d-flex justify-content-center align-items-center rounded-1"><img src="https://imaraansheldon.github.io/Overwatch_Images/Main/Homescreen/friends.png" alt="Friends"></div>
+        <div class="sq glow medal ms-1 rounded-1 d-flex justify-content-center align-items-center rounded-1"><i class="las la-medal"></i></div>
     </div>
 </template>
 
@@ -51,5 +51,12 @@ img[alt="Friends"]{
 }
 .controller{
     font-size: medium;
+}
+.glow{
+    transition: none 0.1s;
+    &:hover{
+        border: 1px solid var(--text-black);
+        transition: ease 0.1s;
+    }
 }
 </style>
